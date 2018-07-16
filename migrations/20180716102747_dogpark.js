@@ -4,7 +4,6 @@ exports.up = function(knex, Promise) {
     dogpark.string('parkName')
     dogpark.string('address')
     dogpark.string('picture')
-
   })
 };
 
