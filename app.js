@@ -6,16 +6,17 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-// const mytrips = require("./routes/mytrips");
-// const futuretrips = require("./routes/futuretrips");
+const dogpark = require("./routes/dogpark");
+const owner = require("./routes/owner");
+const dogprofile = require("./routes/dogprofile");
 
 app.use(cors());
 app.use(morgan("dev"));
 app.use(bodyParser.json());
 
-// app.use("/mytrips", mytrips);
-// app.use("/futuretrips", futuretrips);
-
+app.use("/dogpark", dogpark);
+app.use("/owner", owner);
+app.use("/dogprofile", dogprofile);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
