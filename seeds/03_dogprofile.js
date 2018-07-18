@@ -6,7 +6,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 1, 
           name: 'Teddy',
-          picture: '',
+          picture: 'https://s33.postimg.cc/aumktj9rj/teddy.jpg',
           breed: 'Terrier Mix',
           age: '6 mo',
           gender: 'M',
@@ -18,7 +18,7 @@ exports.seed = function(knex, Promise) {
         }, {
           id: 2, 
           name: 'Annabelle',
-          picture: '',
+          picture: 'https://s33.postimg.cc/56ga2x0cv/annabelle.jpg',
           breed:  'Dachshund/Beagle Mix',
           age: '2',
           gender: 'F',
@@ -30,7 +30,7 @@ exports.seed = function(knex, Promise) {
         }, {
           id: 3, 
           name: 'Indio',
-          picture: '',
+          picture: 'https://s33.postimg.cc/p12bp35an/indio.jpg',
           breed: 'Golden Retriever Mix',
           age: '4',
           gender: 'F',
@@ -42,7 +42,7 @@ exports.seed = function(knex, Promise) {
         }, {
           id: 4, 
           name: 'Monkey',
-          picture: '',
+          picture: 'https://s33.postimg.cc/ahv6np70v/monkey.jpg',
           breed: 'Yorkie Poo',
           age: '7',
           gender: 'F',

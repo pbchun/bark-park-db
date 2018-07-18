@@ -6,11 +6,11 @@ exports.seed = function(knex, Promise) {
         {
           id: 1, 
           parkName: 'Railyard Dog Park',
-          address: '19th Street & Bassett Street, Denver, CO 80202'
+          address: '19th St & Bassett St, Denver, CO 80202'
         }, {
           id: 2, 
           parkName: 'Willow Bark Park',
-          address: 'Trenton Street & 54th Place, Denver, CO 80238'
+          address: 'Trenton St & 54th Place, Denver, CO 80238'
         }, {
           id: 3, 
           parkName: 'Stapleton Off Leash Dog Park',
