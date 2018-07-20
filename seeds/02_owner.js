@@ -5,13 +5,13 @@ exports.seed = function(knex, Promise) {
       return knex('owner').insert([
         {
           id: 1, 
-          name: 'Peter C.'
+          name: 'Peter C'
         }, {
           id: 2, 
-          name: 'Nick M.'
+          name: 'Nick M'
         }, {
           id: 3, 
-          name: 'Kaitlin R.'
+          name: 'Kaitlin R'
         }
       ])
       .then(() => {
