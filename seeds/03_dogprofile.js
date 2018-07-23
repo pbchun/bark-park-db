@@ -51,10 +51,22 @@ exports.seed = function(knex, Promise) {
           check_out: '18:45:00',
           owner_id: 3,
           dogpark_id: 1
+        }, {
+          id: 5, 
+          name: 'Kiki',
+          picture: 'https://s33.postimg.cc/t7ehjr43z/kiki.jpg',
+          breed: 'Chihuahua Mix',
+          age: '9',
+          gender: 'F',
+          size: 'Small',
+          check_in: '18:00:00',
+          check_out: '18:45:00',
+          owner_id: 4,
+          dogpark_id: 1
         }
       ])
       .then(() => {
-        return knex.raw('ALTER SEQUENCE dogprofile_id_seq RESTART WITH 5;')
+        return knex.raw('ALTER SEQUENCE dogprofile_id_seq RESTART WITH 6;')
       });
     });
 };

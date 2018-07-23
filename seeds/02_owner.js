@@ -12,10 +12,14 @@ exports.seed = function(knex, Promise) {
         }, {
           id: 3, 
           name: 'Kaitlin R'
+        }, {
+          id: 4,
+          name: 'Fion W'
         }
+
       ])
       .then(() => {
-        return knex.raw('ALTER SEQUENCE owner_id_seq RESTART WITH 4;')
+        return knex.raw('ALTER SEQUENCE owner_id_seq RESTART WITH 5;')
       });
     });
 };
