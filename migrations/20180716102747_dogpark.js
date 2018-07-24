@@ -3,6 +3,7 @@ exports.up = function(knex, Promise) {
     dogpark.increments()
     dogpark.string('parkName')
     dogpark.string('address')
+    dogpark.string('picture')
   })
 };
 
