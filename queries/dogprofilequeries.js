@@ -22,7 +22,6 @@ module.exports = {
       .update(dogprofile)
       .where("id", id)
       .returning("*")
-      .then(record => record[0]);
   },
   delete(id) {
     return database("dogprofile")
