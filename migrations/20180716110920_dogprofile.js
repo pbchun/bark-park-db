@@ -10,6 +10,7 @@ exports.up = function(knex, Promise) {
     dogprofile.string('size')
     dogprofile.time('check_in')
     dogprofile.time('check_out')
+    dogprofile.boolean('checkedIn')
     dogprofile.integer('owner_id')
               .references('id')
               .inTable('owner')

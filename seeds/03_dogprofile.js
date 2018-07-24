@@ -13,6 +13,7 @@ exports.seed = function(knex, Promise) {
           size: 'Small',
           check_in: '18:00:00',
           check_out: '18:30:00',
+          checkedIn: false,
           owner_id: 1,
           dogpark_id: 1
         }, {
@@ -25,6 +26,7 @@ exports.seed = function(knex, Promise) {
           size: 'Small',
           check_in: '18:15:00',
           check_out: '18:45:00',
+          checkedIn: true,
           owner_id: 2,
           dogpark_id: 1
         }, {
@@ -37,6 +39,7 @@ exports.seed = function(knex, Promise) {
           size: 'Med',
           check_in: '18:00:00',
           check_out: '18:45:00',
+          checkedIn: true,
           owner_id: 3,
           dogpark_id: 1
         }, {
@@ -49,6 +52,7 @@ exports.seed = function(knex, Promise) {
           size: 'Small',
           check_in: '18:00:00',
           check_out: '18:45:00',
+          checkedIn: true,
           owner_id: 3,
           dogpark_id: 1
         }, {
@@ -61,6 +65,7 @@ exports.seed = function(knex, Promise) {
           size: 'Small',
           check_in: '18:00:00',
           check_out: '18:45:00',
+          checkedIn: true,
           owner_id: 4,
           dogpark_id: 1
         }
