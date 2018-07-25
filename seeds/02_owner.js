@@ -5,16 +5,16 @@ exports.seed = function(knex, Promise) {
       return knex('owner').insert([
         {
           id: 1, 
-          name: 'Peter C'
+          name: 'Peter'
         }, {
           id: 2, 
-          name: 'Nick M'
+          name: 'Nick'
         }, {
           id: 3, 
-          name: 'Kaitlin R'
+          name: 'Kaitlin'
         }, {
           id: 4,
-          name: 'Fion W'
+          name: 'Fion'
         }
 
       ])
